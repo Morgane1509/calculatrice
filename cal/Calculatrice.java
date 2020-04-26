@@ -9,10 +9,14 @@
  * @author HP
  */
 public class Calculatrice {
-
-    /**
-     * @param args the command line arguments
-     */
+    private String msg;
+    private char nbre1;
+    private char nbre2;
+    public calculatrice(char nbre1, char nbre2){
+        this.msg=null;
+        this.nbre1=nbre1;
+        this.nbre2=nbre2;
+    }
     public static void main(String args[]) {
         // TODO code application logic here
     }

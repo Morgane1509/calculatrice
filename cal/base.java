@@ -11,13 +11,13 @@
 public class base {
     
     private String resultat;
-    public String calculatrice(float nbre1, float nbre2, char op){
+    public String calculatrice(float nbre1, float nbre2, String op){
         switch(op){
             case "+": 
-                resultat= "nbre1+nbre2="nbre1+nbre2 ;
+                resultat= "nbre1+nbre2="+(nbre1+nbre2);
                 break;
             case "/": if(nbre2!=0){
-                resultat="nbre1/nbre2=" nbr1/nbre2 ;
+                resultat="nbre1/nbre2="+(nbre1/nbre2);
                 break;
             }else{
                 resultat="Division impossible";
