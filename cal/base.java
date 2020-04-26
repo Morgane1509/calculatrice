@@ -7,7 +7,7 @@ package calculatrice;
 
 /**
  *
- * @author Albéric
+ * @author Morgane
  */
 public class Base {
 

@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Albéric
+ * @author Morgane
  */
 public class Calculatrice {
 

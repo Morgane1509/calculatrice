@@ -8,7 +8,7 @@ package cal;
 
 /**
  *
- * @author HP
+ * @author Morgane
  */
 public class Fonction {
     private String sms=null;
