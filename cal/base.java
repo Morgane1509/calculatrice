@@ -1,3 +1,4 @@
+package calculatrice;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -6,30 +7,32 @@
 
 /**
  *
- * @author HP
+ * @author Albéric
  */
-public class base {
-    
-    private String resultat;
-    public String calculatrice(float nbre1, float nbre2, String op){
-        switch(op){
-            case "+": 
-                resultat= "nbre1+nbre2="+(nbre1+nbre2);
-                break;
-            case "/": if(nbre2!=0){
-                resultat="nbre1/nbre2="+(nbre1/nbre2);
-                break;
-            }else{
-                resultat="Division impossible";
+public class Base {
+
+    /**
+     * the command line arguments
+     */
+         public static  double resultat;
+        public static double calculatrice(double nbre1, double nbre2, int op){
+           
+            switch(op){
+                case 1:
+                    resultat = nbre1 + nbre2;
+                    break;
+                case 2:
+                    resultat = nbre1 - nbre2;
+                    break;
+                case 3:
+                    resultat = nbre1 / nbre2;
+                    break;
+                case 4:
+                    resultat = nbre1 * nbre2;
+                    break;
+                default:
+                    break;
             }
-            default: break;
+            return resultat;
         }
-        return resultat;
-    }
-   
-            
-            
-    public static void main(String args[]) {
-        // TODO code application logic here
-    }
 }
